@@ -373,16 +373,16 @@ footer li{
     .nav-bar{
         display: flex;
         padding: 2rem 22rem;
-        /* justify-content: space-between; */
-        gap: 10rem;
+        justify-content: space-between;
+        /* gap: 10rem; */
         height: 48rem;
         width: 100%;
     }
     nav .nav-first{
-
+        margin-right: -70rem;
     }
     nav .nav-second{
-        margin-left: auto;
+        margin-left: 0rem;
     }
     .logo{
         width: 156rem;
