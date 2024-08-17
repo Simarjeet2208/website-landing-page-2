@@ -380,12 +380,10 @@ footer li{
         width: 100%;
     }
     nav .nav-first{
-        margin-right: -80rem;
-        padding: 0rem;
+        width: 30%;
     }
-    nav .nav-second:last-child{
-        margin-left: 0rem;
-        padding: 0rem;
+    nav .nav-second{
+        width: auto;
     }
     .logo{
         width: 156rem;
