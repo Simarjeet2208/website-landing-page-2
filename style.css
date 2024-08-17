@@ -354,3 +354,133 @@ footer li{
     margin-top: 16rem;
     margin-bottom: 30rem;
 }
+@media only screen and (max-width: 600px) {
+    body h3{
+        font-size: 20rem;
+    }
+    body p{
+        font-size: 12rem;
+    }
+    .nav-bar{
+        padding: 2rem 22rem;
+        /* justify-content: space-between; */
+        gap: 10%;
+        height: 48rem;
+        width: 100%;
+    }
+    .logo{
+        width: 156rem;
+        height: 32rem;
+    }
+    .nav-search{
+        display: none;
+    }
+    .search-icon{
+        display: block;
+        color: #0096C8;
+        font-weight: bold;
+    }
+    .nav-list-item.drop-down{
+        display: none;
+    }
+    .header-section{
+        display: block;
+        padding: 32rem 24rem;
+    }
+    .header-section-left img{
+        display: none;
+    }
+    .responsive-header-img{
+        display: flex;
+        justify-content: space-between;
+    }
+    .responsive-header-img img{
+        width: 48%;
+        height: auto;
+    }
+    .header-section-left h1{
+        font-size: 25rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .header-section-left p{
+        font-size: 12rem;
+        line-height: 22rem;
+    }
+    .header-section-right{
+        margin: 48rem auto;
+    }
+    .four-cards{
+        grid-template-columns: 1fr;
+        padding: 2rem 22rem;
+    }
+    .grid-item{
+        padding: 24rem;
+    }
+    .grid-item p{
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+        font-size: 12rem;
+    }
+    .grid-item button{
+        width: 100%;
+    }
+    .card-heading{
+        gap: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    section.third{
+        padding: 48rem 24rem;
+    }
+    .big-card{
+        padding: 24rem;
+    }
+    .big-card button{
+        width: 100%;
+    }
+    section.fourth{
+        padding: 24rem;
+    }
+    .audio-img{
+        order: 2;
+        width: 100%;
+    }
+    .img-des{
+        order: 1;
+        width: 100%;
+    }
+    .image-flex{
+        flex-direction: column;
+        gap: 32rem;
+    }
+    section.fifth{
+        padding: 24rem;
+    }
+    .fifth h1{
+        font-size: 18rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .fifth img{
+        width: 100%;
+        margin-top: 48rem;
+    }
+    .btnn{
+        width: 104rem;
+        height: 28rem;
+    }
+    footer{
+        flex-direction: column;
+        padding: 24rem;
+        gap: 50rem;
+    }
+    footer li{
+        font-size: 8rem;
+    }
+    .footer .logo-flex{
+        width: 100%;
+    }
+  }
