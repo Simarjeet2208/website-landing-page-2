@@ -44,6 +44,9 @@ body h3{
     gap: 0px;
     opacity: 0px;
 }
+.search-icon{
+    display: none;
+}
 .nav-search{
     width: 300rem;
     height: 40rem;
@@ -179,7 +182,6 @@ b{
 .remember{
     display: flex;
     gap: 2rem;
-
 }
 .forget-password{
     display: flex;
@@ -354,7 +356,14 @@ footer li{
     margin-top: 16rem;
     margin-bottom: 30rem;
 }
-@media only screen and (max-width: 600px) {
+.responsive-header-img{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow: auto;
+    }
     body h3{
         font-size: 20rem;
     }
@@ -391,7 +400,7 @@ footer li{
         display: none;
     }
     .responsive-header-img{
-        display: flex;
+        display: block;
         justify-content: space-between;
     }
     .responsive-header-img img{
