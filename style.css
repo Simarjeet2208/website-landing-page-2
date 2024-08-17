@@ -374,15 +374,18 @@ footer li{
         display: flex;
         padding: 2rem 22rem;
         justify-content: space-between;
+        /* flex-wrap: wrap; */
         /* gap: 10rem; */
         height: 48rem;
         width: 100%;
     }
     nav .nav-first{
-        margin-right: -70rem;
+        margin-right: -80rem;
+        padding: 0rem;
     }
-    nav .nav-second{
+    nav .nav-second:last-child{
         margin-left: 0rem;
+        padding: 0rem;
     }
     .logo{
         width: 156rem;
