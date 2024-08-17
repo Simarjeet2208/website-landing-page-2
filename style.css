@@ -371,11 +371,18 @@ footer li{
         font-size: 12rem;
     }
     .nav-bar{
+        display: flex;
         padding: 2rem 22rem;
-        justify-content: space-between;
-        /* gap: 10%; */
+        /* justify-content: space-between; */
+        gap: 10rem;
         height: 48rem;
         width: 100%;
+    }
+    nav .nav-first{
+
+    }
+    nav .nav-second{
+        margin-left: auto;
     }
     .logo{
         width: 156rem;
@@ -395,7 +402,7 @@ footer li{
     .header-section{
         display: block;
         padding: 32rem 24rem;
-        max-width: 100%;
+        width: 100%;
     }
     .header-section-left img{
         display: none;
