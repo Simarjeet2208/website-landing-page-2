@@ -1,0 +1,356 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 6.25%;
+}
+p{
+    font-size: 16rem;
+    line-height: 30rem;
+}
+body a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+body h3{
+    font-size: 24rem;
+}
+
+/* ==================NAV-BAR================= */
+
+.nav-bar{
+    display: flex;
+    min-height: 80rem;
+    padding: 3rem 100rem;
+    /* justify-content: space-between; */
+    gap: 90rem;
+    align-items: center;
+    max-width: 100%;
+    /* position: fixed; */
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 34rem;
+}
+.logo{
+    max-width: 293.26px;
+    height: 60px;
+    top: 10px;
+    left: 97px;
+    gap: 0px;
+    opacity: 0px;
+}
+.nav-search{
+    width: 300rem;
+    height: 40rem;
+    border-radius: 10rem;
+    border: 1px solid #6D747A;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    margin-left: rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20rem;
+}
+.nav-icon{
+    width: 24rem;
+}
+
+.dropdown{
+    font-size: 50px;
+}
+.nav-list-item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    gap: 4rem;
+}
+.dropdown-1{
+    /* position: absolute; */
+}
+.dropdown-list{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 60rem;
+}
+.dropdown-list li{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 220rem;
+    padding: 12px 61px 12px 12px;
+    height: 42rem;
+    color: #6D747A;
+    background-color: white;
+}
+.btnn{
+    width: 112rem;
+    height: 40rem;
+    border-radius: 10px;
+    font-size: 14rem;
+    font-weight: 500;
+}
+.nav-signin{
+    background-color: #fff;
+    color: #8064A2;
+    border: 1px solid #8064A2;
+}
+.nav-signin:hover{
+    background-color: #8064A2;
+    color: white;
+    border: 1px solid #8064A2;
+}
+nav li{
+    cursor: pointer;
+}
+
+/* ================NAV-BAR ENDS==================== */
+
+
+/* ===============HEADER-SECTION================== */
+
+.header-section{
+    padding: 100rem 100rem;
+    padding-bottom: 0rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F5F9;
+}
+.header-section-left h1{
+    font-size: 40rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.header-section-left span{
+    color: #8064A2;
+}
+.header-section-left p{
+    max-width: 700rem;
+    margin-top: 32rem;
+    margin-bottom: 16rem;
+}
+.header-section-right button{
+    background-color: rgba(0, 0, 0, 0.0);
+    display: block;
+    font-weight: 600;
+    border: 1px solid #8064A2;
+    
+}
+.signin-elements{
+    width: 100%;
+    height: 40rem;
+    border-radius: 8rem;
+    font-size: 14rem;
+    margin-bottom: 16rem;
+}
+button.signin-elements:hover{
+    background-color: black;
+    color: white;
+}
+b{
+    display: block;
+    font-size: 12rem;
+    text-align: center;
+    margin-bottom: 16rem;
+}
+.header-section-right input{
+    border: none;
+    background-color: white;
+    padding: 12rem;
+}
+.header-section-right span{
+    font-size: 12rem;
+}
+.header-section-right a{
+    font-size: 12rem;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.remember{
+    display: flex;
+    gap: 2rem;
+
+}
+.forget-password{
+    display: flex;
+    justify-content: space-between;
+}
+#lock
+{
+    font-size: 15rem;
+}
+.signin-elements.continue{
+    margin-top: 16rem;
+    border-color: black;
+}
+.declaration{
+    color: #6D747A;
+    font-size: 12rem;
+}
+.declaration span{
+    color: black;
+}
+.selecting-login-option{
+    display: flex;
+    gap: 20rem;
+    margin-bottom: 13rem;
+    font-weight: 600;
+    font-size: 15rem;
+}
+.selecting-login-option-a{
+    font-size: 25rem;
+}
+.selecting-login-option a{
+    font-size: 17rem;
+}
+#signin{
+    text-decoration: underline;
+    color: #8064A2;
+}
+.login-section{
+    display: none;
+}
+
+
+.four-cards{
+    display: grid;
+    padding: 100px;
+    grid-template-columns: auto auto;
+    gap: 24px;
+}
+.grid-item{
+    border: 1px solid #CED4DA;
+    border-radius: 10px;
+    padding: 44px 40px;
+}
+.grid-item.first:hover{
+    background-color: #8064A2;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.grid-item.first:hover .card-image{
+    filter: invert(100%) brightness(500%);
+    transition: 0.3s ease-in;
+}
+.grid-item.second:hover{
+    background-color: #77933C;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.grid-item.second:hover .card-image{
+    filter: invert(100%) brightness(500%);
+    transition: 0.3s ease-in;
+}
+.grid-item.third:hover{
+    background-color: #C0504D;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.grid-item.third:hover .card-image{
+    filter: invert(100%) brightness(500%);
+    transition: 0.3s ease-in;
+}
+.grid-item.fourth:hover{
+    background-color: #0096C8;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.grid-item.fourth:hover .card-image{
+    filter: invert(100%) brightness(500%);
+    transition: 0.3s ease-in;
+}
+
+
+.first img:hover{
+    filter: brightness(100%) contrast(100%);
+}
+.card-heading{
+    display: flex;
+    align-items: center;
+    gap: 24rem;
+}
+.grid-item p{
+    margin-top: 24rem;
+    margin-bottom: 32rem;
+    font-size: 18rem;
+}
+section.third{
+    padding: 100rem;
+    background-color: #F7FDFF;
+}
+.big-card{
+    padding: 40rem;
+    border: 1px solid #CED4DA;
+    border-radius: 10px;
+    background-color: white;
+}
+.big-card p{
+    margin-top: 24rem;
+    margin-bottom: 32rem;
+}
+section.fourth{
+    padding: 100rem;
+}
+.audio-img{
+    max-width: 676rem;
+}
+.img-des{
+    width: auto;
+}
+.fifth{
+    padding: 100rem;
+}
+.fifth h1{
+    font-size: 40rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.fifth span{
+    color: #8064A2;
+}
+.fifth button{
+    background-color: #8064A2;
+    color: white;
+    margin-top: 30rem;
+}
+.fifth img{
+    max-width: 1150rem;
+    display: block;
+    margin-top: 100rem;
+    background-color: #F7FDFF;
+}
+footer{
+    padding: 60rem 100rem;
+    display: flex;
+    gap: 175rem;
+}
+.footer-section{
+    max-width: 120rem;
+}
+footer h4{
+    font-size: 14rem;
+    font-weight: 700;
+}
+footer li{
+    font-size: 14rem;
+    list-style-type: none;
+}
+.footer-flex{
+    display: flex;
+}
+.footer .logo-flex{
+    display: flex;
+    gap: 24rem;
+    margin-top: 16rem;
+    margin-bottom: 30rem;
+}
