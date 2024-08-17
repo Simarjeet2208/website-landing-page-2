@@ -395,6 +395,7 @@ footer li{
     .header-section{
         display: block;
         padding: 32rem 24rem;
+        max-width: 100%;
     }
     .header-section-left img{
         display: none;
